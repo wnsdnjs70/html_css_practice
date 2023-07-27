@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 750px;
+            border-collapse: collapse;
+        }
+        tr td, tr th{
+            border:1px solid black;
+            height: 50px;
+        }
+        tr th{
+            text-align: left;
+        }
+        .col{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="col">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>1</th>
+                <th colspan="2">2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">4</td>
+                <td colspan="3">5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

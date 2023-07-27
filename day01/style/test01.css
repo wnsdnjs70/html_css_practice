@@ -17,3 +17,22 @@ section ul li{
 section ol li{
     list-style-type: decimal;
 }
+
+#area{
+    background-color: magenta;
+}
+
+#area2{
+    background-color: chartreuse;
+}
+
+div.line{
+    width: auto;
+    height: 10px;
+    background-color: skyblue;
+}
+
+.fig_img{
+    width: 400px;
+    height: 400px;
+}

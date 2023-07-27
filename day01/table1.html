@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 750px;
+            border-collapse: collapse;
+        }
+        tr td, tr th{
+            border:1px solid silver;
+        }
+        .t{
+            background-color: magenta;
+        }
+        .z{
+            background-color: coral;
+        }
+        .f{
+            background-color: aqua;
+        }
+        .col{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>[표 1] 학생 관리</caption>
+        <colgroup>
+            <col class="t">
+            <col class="z">
+            <col class="f">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>주소</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍하나</td>
+                <td>20</td>
+                <td>서울</td>
+            </tr>
+            <tr>
+                <td>김하나</td>
+                <td>20</td>
+                <td>부산</td>
+            </tr>
+            <tr>
+                <td>이하나</td>
+                <td>21</td>
+                <td>강원</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>총 인원</td>
+                <td colspan="2">3</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br><br>
+    <table>
+        <colgroup>
+            <col class="col">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>1</th>
+                <th colspan="2">2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">4</td>
+                <td colspan="3">5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
