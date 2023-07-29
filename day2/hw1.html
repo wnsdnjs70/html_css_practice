@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+
+        .field1 #field1_li1,#field1_li2{
+            display: inline-block;
+        }
+        #select_color{
+            width: 100px;
+        }
+
+        .field2 label{
+            color: limegreen;
+        }
+
+        .field3 label{
+            color: limegreen;
+        }
+
+        label{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>여름방학 특강 신청</h1>
+    </header>
+    <div>
+        <form action="asd">
+            <fieldset class="field1">
+                <legend><b>수강 신청인</b></legend>
+                <ul>
+                    <li id="field1_li1">
+                        <label for="studentCd">학번</label>
+                        <input type="text" name="studentCd" id="studentCd">
+                    </li>
+                    <li id="field1_li2">
+                        <label for="studentNm">이름</label>
+                        <input type="text" name="studentNm" id="studentNm">
+                    </li>
+                    <li>
+                        <label for="dept">학과</label>
+                        <select name="dept" id="dept">
+                            <option value="건축공학과" selected>건축공학과</option>
+                            <option value="컴퓨터공학과">컴퓨터공학과</option>
+                            <option value="전자공학과">전자공학과</option>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+            
+            <fieldset class="field2">
+                <legend><b>수강 과목을 선택하세요</b></legend>
+                <ul>
+                    <li>
+                        <label for="color">선호색상</label>
+                        <input type="color" name="color" id="select_color">
+                    </li>
+                    <li>
+                        <label for="subject">신청 과목(회화)</label>
+                        <input type="radio" name="subject" id="subject1" checked> 영어 회화(초급)
+                        <input type="radio" name="subject" id="subject2"> 영어 회화(중급)
+                        <input type="radio" name="subject" id="subject3"> 영어 회화(고급)
+                    </li>
+                    <li>
+                        <label for="lang">신청 과목(자격)</label>
+                        <input type="radio" name="lang" id="lang1"> TOIEC
+                        <input type="radio" name="lang" id="lang2"> TOEFL
+                        <input type="radio" name="lang" id="lang3"> OPIC
+                    </li>
+                    <li>
+                        <label for="interest">관심분야</label>
+                        <input type="text" name="interest" id="interest">
+                    </li>
+                </ul>
+            
+            </fieldset>
+            
+            <fieldset class="field3">
+                <legend><b>강의 시간을 선택하세요</b></legend>
+                <ul>
+                    <li>
+                        <label for="">개강 주</label>
+                        <input type="date" name="week" id="week">
+                    </li>
+                    <li>
+                        <label for="">강의 시간</label>
+                        <input type="text" name="text" id="text">
+                    </li>
+                </ul>            
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

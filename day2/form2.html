@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <ul>
+            <li>
+                <label for="id">아이디</label>
+                <input type="text" name="id" id="id" autofocus required placeholder="아이디를 입력하세요">
+            </li>
+            <li>
+                <label for="pwd">패스워드</label>
+                <input type="password" name="pwd" id="pwd" placeholder="" required minlength="3">
+            </li>
+            <li>
+                <label for="name">이름</label>
+                <input type="text" name="name" id="name" readonly value="못 쓰지롱">
+            </li>
+            <li>
+                <input type="hidden" name="data" value="test">히든입니다.
+            </li>
+            <li>
+                <label for="gender">성별</label>
+                <input type="radio" name="gender" id="f" value="female">여자
+                <input type="radio" name="gender" id="m" value="male">남자
+            </li>
+            <li>
+                <label for="">분식 : </label>
+                <label for="">떡볶이</label>
+                <input type="checkbox" id="" value="떡볶이" name="favfood">
+                <label for="">김말이</label>
+                <input type="checkbox" id="" value="김말이" name="favfood">
+                <label for="">순대</label>
+                <input type="checkbox" id="" value="순대" name="favfood">
+            </li>
+            <li>
+                <label for="">업로드 파일</label>
+                <input type="file" name="" id="">
+            </li>
+            <li>
+                <label for="">이메일</label>
+                <input type="email" name="" id="" required>
+            </li>
+            <li>
+                <label for="">tel</label>
+                <input type="tel" name="" id="">
+            </li>
+            <li>
+                <label for="">url</label>
+                <input type="url" name="" id="">
+            </li>
+            <li>
+                <label for="">수량</label>
+                <input type="number" name="" id="" max="100" step="10" value="10">
+            </li>
+            <li>
+                <label for="">범위</label>
+                <input type="range" name="" id="">
+            </li>
+            <li>
+                <label for="">날짜</label>
+                <input type="date" name="" id="">
+            </li>
+            <li>
+                <label for="">progress</label>
+                <progress value="30" max="100"> 70%</progress>
+            </li>
+            <li>
+                <label for="">부서</label>
+                <select name="" id="" size="5" multiple>
+                    <optgroup label="ict부서">
+                        <option value="d1">부서1</option>
+                        <option value="d2">부서2</option>
+                        <option value="d3">부서3</option>
+                        <option value="d4">부서4</option>
+                        <option value="d5">부서5</option>
+                    </optgroup>
+                    <optgroup label="디지털">
+                        <option value="d1">부서1</option>
+                        <option value="d2">부서2</option>
+                        <option value="d3">부서3</option>
+                        <option value="d4">부서4</option>
+                        <option value="d5">부서5</option>
+                    </optgroup>
+                </select>
+            </li>
+            <li>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                <button type="submit">전송</button>
+                <button type="reset">취소</button>
+                <input type="button" value="버튼">
+            </li>
+
+        </ul>
+
+    </form>
+</body>
+</html>
