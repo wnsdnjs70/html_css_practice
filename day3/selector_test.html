@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Quicksand&display=swap');
+      </style>
+    <style>
+    
+        div:first-child{
+            border : 1px solid black;
+        }
+
+        p:first-of-type{
+            background-color: antiquewhite;
+        }
+
+        p:nth-of-type(2n){
+            background-color: aquamarine;
+        }
+
+        :nth-last-child(3){
+            border: 1px solid red;
+        }
+
+        .test{
+            text-transform: capitalize;
+            text-decoration: line-through;
+            text-shadow: 5px 5px 3px darkblue;
+            font-family: 'Diphylleia', serif;
+            text-align: center;
+            line-height: 100px;
+            letter-spacing: 5px;
+            text-indent: 20px;
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <div>div-1</div>
+    <p>p-1</p>
+    <div>div-2</div>
+    <p>p-2</p>
+    <div>div-3</div>
+    <p>p-3</p>
+    <div>div-4</div>
+    <p>p-4</p>
+    <div class="test">
+        안녕하세요
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+        Laboriosam itaque inventore hic deleniti nisi earum omnis placeat fugit labore voluptatibus nostrum rem, 
+        facilis aliquid quo ea architecto rerum saepe unde.
+    </div>
+</body>
+</html>
