@@ -1,0 +1,68 @@
+ul{
+    list-style-type: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header h1,h2{
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.header_nav li{
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 60px;
+}
+
+.header_nav ul{
+    margin-left: 800px;
+}
+.header_nav a{
+    color: white;
+}
+
+.wrap{
+    width: 95%;
+    margin: 0 auto;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap section{
+    width: 70%;   
+}
+.wrap aside{
+    width: 30%;
+}
+
+aside h3{
+    color: grey;
+}
+
+aside a:link{
+    color: lightseagreen;
+}
+
+.blog a{
+    padding-left: 40px;
+}
+
+.footer{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.line{
+    width: 95%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: lightgrey;
+    margin-top: 20px;
+}

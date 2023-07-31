@@ -1,0 +1,126 @@
+header{
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.head{
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main_nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.main_nav li{
+    padding-right: 80px;
+}
+
+.main_nav_btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main_nav_btn:hover{
+    background-color: magenta;
+    color: white;
+}
+
+.main_nav_btn:link{
+    color: black;
+}
+
+.main_nav{
+    background-color: pink;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+aside{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    height: 220px;
+    width: 25rem;
+}
+
+.aside{
+    display: inline-block;
+
+}
+
+.main_section{
+    display: inline-block;
+    background-color: lightyellow;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 80rem;
+}
+
+.wrap{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.inner_section{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 50px 30px;
+}
+
+.content{
+    padding: 50px;
+}
+
+.inner_section p {
+    padding: 30px;
+}
+
+#here{
+    color: red;
+    font-weight: bold;
+    padding-inline: 20px;
+}
+
+.aside_nav{
+    width: 85%;
+    height: 2rem;
+    display: inline-block;
+    border-radius: 10px;
+    color: black;
+}
+
+.aside_nav:hover{
+    background-color: rebeccapurple;
+   color: white;
+}
+
+aside a{
+    padding: 10px;
+}
+
+aside li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
