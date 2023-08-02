@@ -1,0 +1,58 @@
+.content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#shinhanlogo{
+    width: 12vw;
+    height: 5vh;
+    border: 1px solid black;
+}
+
+#logo_link{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.head_top{
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.head_top nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.head_top nav{
+    border: 1px solid black;
+}
+
+.head_top{
+    border: 1px solid black;
+}
+
+.head_top a{
+    color: grey;
+    text-decoration: none;
+}
+
+
+.head_top a:hover{
+    text-decoration: underline;
+}
+
+.head_top a:link, a:visited{
+    color: grey;
+}
+
+.head_top a:nth-child(6),a:nth-last-child(7){
+    color: black;
+}
+.head_top a:nth-child(6):link, a:nth-child(6):visited, a:nth-last-child(7):link, a:nth-last-child(7):visited {
+    color: black;
+}
+

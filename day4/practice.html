@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+        header, aside, section, footer{
+            border: 1px solid black;
+        }
+        header{
+            height: 25vh;
+        }
+        div aside,section{
+            margin: 1rem;
+            padding: 1rem 1rem;
+        }
+
+        div aside:nth-child(1){
+            height: 25vh;
+            width: 15%;
+        }
+        div aside:nth-child(3){
+            height: 25vh;
+            width: 15%;
+        }
+        div section{
+            height: 40vh;
+            width: 70%;
+        }
+        footer{
+            height: 20vh;
+        }
+        header h1{
+            margin: 3rem 1rem;
+        }
+        footer p{
+            margin-top: 4rem;
+            margin-left: 2rem;
+        }
+        body{
+            border: 1px solid black;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>3단 레이어</h1>
+    </header>
+    <div>
+        <aside>
+            <h2>사이드바1</h2>
+            <ul>
+                <li>목록1</li>
+                <li>목록2</li>
+                <li>목록3</li>
+            </ul>
+        </aside>
+        <section>
+            <h2>내용</h2>
+            <p>내용 1 ㅁㄴㅇㅇㄴㅇㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅇㅁㄴㅇㄴㅇ</p>
+            <p>내용 1 ㅁㄴㅇㅇㄴㅇㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅇㅁㄴㅇㄴㅇ</p>
+            <p>내용 1 ㅁㄴㅇㅇㄴㅇㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅇㅁㄴㅇㄴㅇ</p>
+        </section>
+        <aside>
+            <h2>사이드바2</h2>
+            <ul>
+                <li>목록2-1</li>
+                <li>목록2-2</li>
+                <li>목록2-3</li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>
+            Copyright
+        </p>
+    </footer>
+</body>
+</html>
